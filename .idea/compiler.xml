@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="KafkaProducer" />
-        <module name="KafkaStream" />
+        <module name="KafkaStreamFilter" />
+        <module name="KafkaConsumerGrp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="KafkaConsumer" target="8" />
+      <module name="KafkaStream" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

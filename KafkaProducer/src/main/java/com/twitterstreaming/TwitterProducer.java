@@ -30,7 +30,7 @@ public class TwitterProducer {
     String token = "723854148840595456-AYCD0xUN65qt2nzhMkjgISm9gQkIFXJ";
     String tokenSecret = "UDR8KVpelHxQCJCZVVKr8Oku85pbmkDvHuUgCPN29p3vv";
 
-    List<String> terms = Lists.newArrayList("bitcoin", "usa", "India");
+    List<String> terms = Lists.newArrayList("cloud", "azure", "amazonS3", "gcp");
 
     public static void main(String[] args) {
         new TwitterProducer().run();
