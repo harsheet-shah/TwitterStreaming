@@ -25,10 +25,10 @@ import java.util.concurrent.TimeUnit;
 public class TwitterProducer {
 
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class);
-    String consumerKey = "JpkKxRo50gyRn7EdUd7P6a5N1";
-    String consumerSecretKey = "Ae7AggVTzzofBy2uPzEqrGyCPCadBdNbv5HBhcMVBAXs50fuSt";
-    String token = "723854148840595456-AYCD0xUN65qt2nzhMkjgISm9gQkIFXJ";
-    String tokenSecret = "UDR8KVpelHxQCJCZVVKr8Oku85pbmkDvHuUgCPN29p3vv";
+    String consumerKey = YOUR_CONSUMER_KEY;
+    String consumerSecretKey = YOUR_CONSUMER_SECRET_KEY;
+    String token =TOKEN;
+    String tokenSecret = TOKENSECRET;
 
     List<String> terms = Lists.newArrayList("cloud", "azure", "amazonS3", "gcp");
 
